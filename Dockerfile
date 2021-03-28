@@ -1,5 +1,7 @@
 FROM ubuntu:20.04
 
+# @todo  CJG Mar 28, 2021: this worked once...but we're having issues grabbing
+#        libssl today?
 RUN apt update
 RUN apt install -y --no-install-recommends wget cmake make ninja-build
 
